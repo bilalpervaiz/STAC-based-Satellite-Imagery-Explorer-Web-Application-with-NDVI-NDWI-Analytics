@@ -116,7 +116,6 @@ planetary-computer >= 0.5.0
 numpy >= 1.24.0
 matplotlib >= 3.7.0
 pyproj >= 3.6.0
-gdal >= 3.6.0
 rasterio >= 1.3.0
 requests >= 2.31.0
 Pillow >= 10.0.0

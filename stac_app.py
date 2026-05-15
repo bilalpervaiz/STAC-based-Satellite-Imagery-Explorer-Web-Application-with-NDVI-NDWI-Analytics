@@ -32,9 +32,8 @@ except Exception:
     pass
 
 try:
-    from osgeo import gdal
-    gdal_data = os.path.join(os.path.dirname(os.path.dirname(gdal.__file__)), 'data')
-    os.environ['GDAL_DATA'] = gdal_data
+    import pyproj.datadir
+    os.environ['PROJ_LIB'] = pyproj.datadir.get_data_dir()
 except Exception:
     pass
 
